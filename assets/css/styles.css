@@ -565,6 +565,10 @@ img {
   margin-bottom: 0.25rem;
 }
 
+.interests__name{
+  margin-bottom: 1rem;
+}
+
 /* Scroll top */
 .scrolltop {
   position: fixed;
