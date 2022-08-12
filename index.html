@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--========== BOX ICONS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/progressbar.css" />
+
+  <title>Resume cv</title>
+</head>
+
+<body>
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Dayana</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home nav__icon"></i> Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class="bx bx-book nav__icon"></i> Education
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class="bx bx-user nav__icon"></i> Profile
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">
+              <i class="bx bx-briefcase-alt nav__icon"></i> Experience
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-receipt nav__icon"></i> Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#references" class="nav__link">
+              <i class="bx bx-link-external nav__icon"></i> References
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__toogle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main bd-container">
+    <!-- All elements within this div, is generated in PDF -->
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+          <div class="home__container section bd-grid">
+            <div class="home__data bd-grid">
+              <img src="assets/img/perfil.jpeg" alt="Profile pic" class="home__img" />
+              <h1 class="home__title"><b>DAYANA</b> RODRIGUEZ </h1>
+              <h3 class="home__profession">Web Developer</h3>
+
+              <!-- Button to generate and download the pdf. Available for desktop. -->
+              <div>
+                <a download href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+              </div>
+            </div>
+            <div class="home__address bd-grid">
+              <span class="home__information">
+                <i class="bx bx-map home__icon"></i> C.47 x 48 y 50 #316
+                Mérida, Yucatán, México
+              </span>
+              <span class="home__information">
+                <a href="mailto:dayanaromeo96@gmail.com" class="home__link"><i class="bx bx-envelope home__icon"></i>
+                  dayanaromeo96@gmail.com</a>
+              </span>
+              <span class="home__information">
+                <i class="bx bx-phone home__icon"></i> +52 (999)-159-14-70
+              </span>
+            </div>
+          </div>
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+          <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+        </section>
+
+        <!--========== SOCIAL ==========-->
+        <!-- <section class="social section">
+          <h2 class="section-title">Social networks</h2>
+          <div class="social__container bd-grid">
+            <a href="https://joelsanram.github.io/PortafolioJoel" target="_blank" class="social__link">
+              <i class="bx bxs-briefcase social__icon"></i> Joel Sánchez
+            </a>
+            <a href="https://www.facebook.com/joelsanchezbell" target="_blank" class="social__link">
+              <i class="bx bxl-facebook social__icon"></i> Joel Sánchez
+            </a>
+            <a href="https://twitter.com/_Yoara_" target="_blank" class="social__link">
+              <i class="bx bxl-twitter social__icon"></i> Joel Sánchez
+            </a>
+            <a href="https://github.com/JoelSanRam" target="_blank" class="social__link">
+              <i class="bx bxl-github social__icon"></i> Joel Sánchez
+            </a>
+          </div>
+        </section> -->
+
+        <!--========== EDUCATION ==========-->
+        <section class="education section" id="education">
+          <h2 class="section-title">Training</h2>
+          <div class="education__container bd-grid">
+            <div class="education__content">
+              <div class="education__data bd-grid">
+                <h3 class="education__title">
+                  Ingeniera Informática
+                </h3>
+                <span class="education__studies">Universidad Tecnológica de la Habana José Antonio Echeverría
+                  (IPSJAE)</span>
+                <span class="education__year">2014 - 2019</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== PROFILE ==========-->
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Profile</h2>
+
+          <p class="profile__description">
+            Computer engineering graduate dedicated to web development with more than 2 years of experience,
+            focused on Frontend development and with knowledge of UX/ UI,
+            Adobe XD and Frameworks. With demonstrable ability to adapt
+            to various situations and technologies. </p>
+        </section>
+
+        <!--========== LANGUAGES ==========-->
+        <section class="languages section">
+          <h2 class="section-title">Languages</h2>
+          <ul class="languages__content bd-grid">
+            <li class="languages__name">
+              <span class="languages__circle"></span> Spanish
+            </li>
+            <li class="languages__name">
+              <span class="languages__circle"></span> English (basic)
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="resume__right">
+        <!--========== EXPERIENCE ==========-->
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Experience</h2>
+
+          <div class="experience__container bd-grid">
+            <!-- BEGIN EXPERIENCE CONTENT -->
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Computer and automation specialist</h3>
+                <span class="experience__company">September 2019 – Febrary 2021 | COMBIOMED Tecnología Médica
+                  Digital</span>
+                <span class="experience__description">
+                  I developed
+                  an application that allowed the communication of a
+                  automaton with a web application in React. In addition to forming
+                  part of the team that developed the website of
+                  said company.
+                </span>
+              </div>
+            </div>
+            <!-- END EXPERIENCE CONTENT -->
+            <!-- BEGIN EXPERIENCE CONTENT -->
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Software developer</h3>
+                <span class="experience__company">from March 2021 to September 2021 | ETECSA</span>
+                <span class="experience__description">
+                  Development of new modules and support to
+                  a customer service platform developed in Django.
+                </span>
+              </div>
+            </div>
+            <!-- END EXPERIENCE CONTENT -->
+
+            <!-- BEGIN EXPERIENCE CONTENT -->
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Front-end developer</h3>
+                <span class="experience__company">from December 2021 to currently | Softrek</span>
+                <span class="experience__description">
+                  Front-End developer in the Angular framework.
+                  I am currently developing modules in various related applications
+                  with tourism. In addition to collaborating in the development of a call center.
+                </span>
+              </div>
+            </div>
+            <!-- END EXPERIENCE CONTENT -->
+
+            <!-- BEGIN EXPERIENCE CONTENT -->
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <!-- <span class="experience__line"></span> -->
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">Front-end developer</h3>
+                <span class="experience__company">from April 2022 - currently | Rezglo</span>
+                <span class="experience__description">
+                  React Web Developer
+                  I am part of the front-end development team and collaborate with the support and
+                  development of new modules related to car rental and
+                  tourist transport
+                </span>
+              </div>
+            </div>
+            <!-- END EXPERIENCE CONTENT -->
+          </div>
+        </section>
+
+        <!--========== SKILLS  ==========-->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills__content bd-grid">
+            <ul class="skills__data">
+              <li class="skills__name">
+                JavaScript
+              </li>
+              <li class="skills__name">
+                HTML
+              </li>
+              <li class="skills__name">
+                Css
+              </li>
+              <li class="skills__name">
+                Bootstrap
+              </li>
+              <li class="skills__name">
+                Tailwind
+              </li>
+              <li class="skills__name">
+                TypeScript
+              </li>
+              <li class="skills__name">
+                Angular
+              </li>
+              <li class="skills__name">
+                React
+              </li>
+              </li>
+            </ul>
+            <ul class="skills__data">
+              <li class="skills__name">
+                Jira
+              </li>
+              <li class="skills__name">
+                Monday
+              </li>
+              <li class="skills__name">
+                Ionic
+              </li>
+              <li class="skills__name">
+                UX / UI
+              </li>
+              <li class="skills__name">
+                Git
+              </li>
+              <li class="skills__name">
+                Adobe XD
+              </li>
+              <li class="skills__name">
+                REST
+              </li>
+              <li class="skills__name">
+                Patrones de diseño
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+  </a>
+
+  <!--========== HTML2PDF ==========-->
+  <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
