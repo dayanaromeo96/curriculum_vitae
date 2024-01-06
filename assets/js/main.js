@@ -142,7 +142,7 @@ const enTranslations = {
     experienceDate2: 'from April 2022 - October 2023 | Rezglo',
     experienceDesc2: 'During my work experience, I have had the privilege of providing technical support to a company in the tourism transportation industry. This role has allowed me to gain in-depth knowledge in map handling, as I have been involved in developing solutions that involve visualization and navigation of tourist routes. Additionally, I have been responsible for providing support to previously implemented modules, which has enabled me to become familiar with maintenance and troubleshooting in production applications. In this context, I have also worked with GraphQL services, utilizing this technology to optimize communication between clients and servers, ensuring efficient data exchange. These experiences have strengthened my ability to provide effective solutions and collaborate effectively on projects related to tourism transportation.',
     experienceTitle3: 'Angular developer',
-    experienceDate2: 'from December 2021 to December 2022 | Softrek',
+    experienceDate3: 'from December 2021 to December 2022 | Softrek',
     experienceDesc3: 'During my work experience, I participated in two projects that expanded my skills and knowledge in different areas. In the first project, a call center project, I had the opportunity to work with technologies such as sockets and VoIP, which allowed me to gain experience in developing real-time communication applications. In the second project, related to tourism, I had the opportunity to expand my knowledge in UI design, as it was necessary to create attractive and functional interfaces for tourism applications. These experiences allowed me to build a strong foundation of technical skills and a deeper understanding of the specific needs and requirements of different industry sectors.',
     experienceTitle4: 'Web developer',
     experienceDate4: 'from March 2021 to September 2021 | ETECSA',
@@ -175,7 +175,7 @@ const esTranslations = {
     experienceDate2: 'desde Abril 2022 - Octubre 2023 | Rezglo',
     experienceDesc2: 'Durante mi experiencia laboral, he tenido el privilegio de brindar soporte técnico a una empresa en la industria del transporte turístico. Este rol me ha permitido adquirir un profundo conocimiento en el manejo de mapas, ya que he estado involucrado en el desarrollo de soluciones que involucran la visualización y navegación de rutas turísticas. Además, he sido responsable de brindar soporte a módulos previamente implementados, lo que me ha permitido familiarizarme con el mantenimiento y la resolución de problemas en aplicaciones en producción. En este contexto, también he trabajado con servicios de GraphQL, utilizando esta tecnología para optimizar la comunicación entre clientes y servidores, garantizando un intercambio eficiente de datos. Estas experiencias han fortalecido mi capacidad para brindar soluciones efectivas y colaborar de manera efectiva en proyectos relacionados con el transporte turístico.',
     experienceTitle3: 'Desarrolladora Angular',
-    experienceDate3: 'desde Diciembre 2021 hasta Diciembre 2022 | Softrek',
+    experienceDate3: 'desde Diciembre 2021 - Diciembre 2022 | Softrek',
     experienceDesc3: 'Durante mi experiencia laboral, participé en dos proyectos que ampliaron mis habilidades y conocimientos en diferentes áreas. En el primer proyecto, un proyecto de centro de llamadas, tuve la oportunidad de trabajar con tecnologías como sockets y VoIP, lo que me permitió adquirir experiencia en el desarrollo de aplicaciones de comunicación en tiempo real. En el segundo proyecto, relacionado con el turismo, tuve la oportunidad de ampliar mis conocimientos en diseño de interfaz de usuario, ya que era necesario crear interfaces atractivas y funcionales para aplicaciones turísticas. Estas experiencias me permitieron construir una base sólida de habilidades técnicas y una comprensión más profunda de las necesidades y requisitos específicos de diferentes sectores industriales.',
     experienceTitle4: 'Desarrolladora web',
     experienceDate4: 'desde Marzo 2021 hasta Septiembre 2021 | ETECSA',
@@ -210,9 +210,9 @@ function changeLanguage() {
     document.getElementById('webDev').innerText = translations.webDev;
     document.getElementById('titleTraining').innerText = translations.titleTraining;
     document.getElementById('experienceTitle').innerText = translations.experienceTitle;
-    // document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
-    // document.getElementById('experienceDate1').innerText = translations.experienceDate1;
-    // document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
+    document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
+    document.getElementById('experienceDate1').innerText = translations.experienceDate1;
+    document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
     document.getElementById('experienceTitle2').innerText = translations.experienceTitle2;
     document.getElementById('experienceDate2').innerText = translations.experienceDate2;
     document.getElementById('experienceDesc2').innerText = translations.experienceDesc2;
