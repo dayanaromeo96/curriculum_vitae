@@ -210,9 +210,9 @@ function changeLanguage() {
     document.getElementById('webDev').innerText = translations.webDev;
     document.getElementById('titleTraining').innerText = translations.titleTraining;
     document.getElementById('experienceTitle').innerText = translations.experienceTitle;
-    document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
-    document.getElementById('experienceDate1').innerText = translations.experienceDate1;
-    document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
+   // document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
+    //document.getElementById('experienceDate1').innerText = translations.experienceDate1;
+    //document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
     document.getElementById('experienceTitle2').innerText = translations.experienceTitle2;
     document.getElementById('experienceDate2').innerText = translations.experienceDate2;
     document.getElementById('experienceDesc2').innerText = translations.experienceDesc2;
