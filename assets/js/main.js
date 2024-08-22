@@ -172,7 +172,7 @@ const esTranslations = {
     experienceDate1: 'desde Diciembre 2022 - actualmente | IDS Comercial',
     experienceDesc1: 'Actualmente trabajo como consultora para GNP en un proyecto de gran envergadura llamado Gestor Comercial. En este proyecto, me desempeño como Líder técnico, supervisando al equipo de desarrollo y creando componentes reutilizables para mejorar el rendimiento y la arquitectura del proyecto. Como líder, impulso la innovación, optimizo la eficiencia del código y garantizo la entrega de soluciones de software de alta calidad. Estoy familiarizado con metodologías ágiles, resolución colaborativa de problemas y mentoría de miembros del equipo para alcanzar los objetivos del proyecto.',
     experienceTitle2: 'Desarrolladora Frontend - Líder técnico (React)',
-    experienceDate2: 'desde Abril 2022 - Octubre 2023 | Rezglo',
+    experienceDate2: 'desde Abril 2022 - actualmente | Rezglo',
     experienceDesc2: 'Durante mi experiencia laboral brindé soporte técnico a una empresa en la industria del transporte turístico. Este rol me permitió adquirir un profundo conocimiento en el manejo de mapas, ya que he estado involucrada en el desarrollo de soluciones que involucran la visualización y navegación de rutas turísticas. Además, he sido responsable de brindar soporte a módulos previamente implementados, lo que me ha permitido familiarizarme con el mantenimiento y la resolución de problemas en aplicaciones en producción.',
     experienceTitle3: 'Desarrolladora Angular',
     experienceDate3: 'desde Diciembre 2021 - Diciembre 2022 | Softrek',
