@@ -135,7 +135,7 @@ const enTranslations = {
     ingInf: 'Bachelors degree in Computer Engineering',
     webDev: 'Web Developer',
     experienceTitle: 'EXPERIENCE',
-    experienceTitle1: 'Angular Lead Developer',
+    experienceTitle1: 'Technical Leader',
     experienceDate1: 'from December 2022 - currently | IDS Comercial',
     experienceDesc1: 'In this project, I serve as the Angular Lead Developer, overseeing the development team and creating reusable components to enhance project performance and architecture. As a leader, I drive innovation, optimize code efficiency, and ensure the delivery of high-quality software solutions. I am well-versed in agile methodologies, collaborative problem-solving, and mentoring team members to achieve project goals.',
     experienceTitle2: 'Frontend developer',
@@ -150,6 +150,7 @@ const enTranslations = {
     experienceTitle5: 'Computer and automation specialist',
     experienceDate5: 'September 2019 – Febrary 2021 | COMBIOMED Tecnología Médica Digital',
     experienceDesc5: 'I developed an application that allowed the communication of a automaton with a web application in React. In addition to forming part of the team that developed the website of said company.',
+    experienceTitle6: 'Technical Leader',
     skill: 'SKILLS',
     interest: 'INTERESTS',
     music: 'Music',
@@ -168,8 +169,8 @@ const esTranslations = {
     ingInf: 'Ingeniera Informática',
     webDev: 'Desarrolladora Web',
     experienceTitle: 'Experiencia',
-    //experienceTitle1: 'Líder Técnico de Angular (Angular - Spring Boot)',
-    //experienceDate1: 'desde Diciembre 2022 - actualmente | IDS Comercial',
+    experienceTitle1: 'Líder Técnico (Angular - Spring Boot)',
+    experienceDate1: 'desde Diciembre 2022 - actualmente | IDS Comercial',
     experienceDesc1: 'Actualmente trabajo como consultora para GNP en un proyecto de gran envergadura llamado Gestor Comercial. En este proyecto, me desempeño como Líder técnico, supervisando al equipo de desarrollo y creando componentes reutilizables para mejorar el rendimiento y la arquitectura del proyecto. Como líder, impulso la innovación, optimizo la eficiencia del código y garantizo la entrega de soluciones de software de alta calidad. Estoy familiarizado con metodologías ágiles, resolución colaborativa de problemas y mentoría de miembros del equipo para alcanzar los objetivos del proyecto.',
     experienceTitle2: 'Desarrolladora Frontend - Líder técnico (React)',
     experienceDate2: 'desde Abril 2022 - actualmente | Rezglo',
@@ -183,6 +184,7 @@ const esTranslations = {
     experienceTitle5: 'Especialista en Informática y Automatización (React - ASP.NET)',
     experienceDate5: 'desde Septiembre 2019 hasta Febrero 2021 | COMBIOMED Tecnología Médica Digital',
     experienceDesc5: 'Desarrollé una aplicación que permitía la comunicación de un autómata con una aplicación web en React. Además, formé parte del equipo que desarrolló el sitio web de dicha empresa en el mismo framework',
+    experienceTitle6: 'Líder Técnico (Angular - Spring Boot)',
     skill: 'HABILIDADES',
     interest: 'INTERESES',
     music: 'Música',
@@ -210,9 +212,9 @@ function changeLanguage() {
     document.getElementById('webDev').innerText = translations.webDev;
     document.getElementById('titleTraining').innerText = translations.titleTraining;
     document.getElementById('experienceTitle').innerText = translations.experienceTitle;
-   // document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
-    //document.getElementById('experienceDate1').innerText = translations.experienceDate1;
-    //document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
+    document.getElementById('experienceTitle1').innerText = translations.experienceTitle1;
+    document.getElementById('experienceDate1').innerText = translations.experienceDate1;
+    document.getElementById('experienceDesc1').innerText = translations.experienceDesc1;
     document.getElementById('experienceTitle2').innerText = translations.experienceTitle2;
     document.getElementById('experienceDate2').innerText = translations.experienceDate2;
     document.getElementById('experienceDesc2').innerText = translations.experienceDesc2;
@@ -225,6 +227,7 @@ function changeLanguage() {
     document.getElementById('experienceTitle5').innerText = translations.experienceTitle5;
     document.getElementById('experienceDate5').innerText = translations.experienceDate5;
     document.getElementById('experienceDesc5').innerText = translations.experienceDesc5;
+    document.getElementById('experienceTitle6').innerText = translations.experienceTitle6;
     document.getElementById('skill').innerText = translations.skill;
     document.getElementById('interest').innerText = translations.interest;
     document.getElementById('music').innerText = translations.music;
@@ -265,6 +268,7 @@ document.getElementById('experienceDesc4').innerText = translations.experienceDe
 document.getElementById('experienceTitle5').innerText = translations.experienceTitle5;
 document.getElementById('experienceDate5').innerText = translations.experienceDate5;
 document.getElementById('experienceDesc5').innerText = translations.experienceDesc5;
+document.getElementById('experienceTitle6').innerText = translations.experienceTitle6;
 document.getElementById('skill').innerText = translations.skill;
 document.getElementById('interest').innerText = translations.interest;
 document.getElementById('music').innerText = translations.music;
